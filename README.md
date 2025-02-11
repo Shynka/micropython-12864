@@ -20,5 +20,5 @@ A predefined font set is stored as a list of byte patterns to represent ASCII ch
 Software SPI is initialized with:
 ```python
 spi = SoftSPI(baudrate=1000000, polarity=0, phase=0, sck=clock, mosi=data, miso=miso)
-
+```
 Most of this script was made using Chat-GPT so probly most of it is copied from somewhere else
