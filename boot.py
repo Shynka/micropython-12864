@@ -117,9 +117,6 @@ def custom_ascii_code(char):
 def draw_text(text, x, y):
     for char in text:
         code = custom_ascii_code(char)
-        # Reset x and increase y when code is 82
-        if code == 82:
-            continue  # Skip drawing the character
         if ord(char) ==10:
             x =0
             y+=8
