@@ -1,4 +1,4 @@
-# MicroPython Display Driver with Software SPI
+# MicroPython LCD12864 Display Driver
 
 This script initializes and controls a monochrome display using software SPI on a MicroPython-compatible board.
 
